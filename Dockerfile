@@ -17,3 +17,7 @@ RUN apt-get update \
     pep257 \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
+
+RUN pip3 install \
+    awesome-slugify \
+    python-gitlab
