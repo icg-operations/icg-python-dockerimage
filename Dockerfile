@@ -15,6 +15,7 @@ RUN apt-get update \
     pylint3 \
     pep8 \
     pep257 \
+    postgresql-client \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
 
