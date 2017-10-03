@@ -23,5 +23,5 @@ RUN pip3 install \
     awesome-slugify \
     flake8 \
     pygal \
-    python-gitlab
-    
+    python-gitlab \
+    yattag
