@@ -9,8 +9,6 @@ RUN apt-get update \
     python3-mock \
     python3-psycopg2 \
     python3-pip \
-    python3-pytest \
-    python3-pytest-mock \
     pyflakes3 \
     pylint3 \
     pep8 \
@@ -24,4 +22,6 @@ RUN pip3 install \
     flake8 \
     pygal \
     python-gitlab \
+    pytest \
+    pytest-mock \
     yattag
