@@ -19,6 +19,7 @@ RUN apt-get update \
 
 RUN pip3 install \
     awesome-slugify \
+    bandit \
     flake8 \
     pygal \
     python-gitlab \
